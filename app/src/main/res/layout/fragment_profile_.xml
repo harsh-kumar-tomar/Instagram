@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.Profile_Fragment"
+    android:background="#121212"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_circular"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="16dp"
+                app:cardCornerRadius="70dp"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/aries_spring"
+                    android:scaleType="centerCrop"
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center_vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="54"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/varela_font"
+                    android:textSize="20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Posts"
+                    android:textColor="#fff"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="879"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/varela_font"
+                    android:textSize="20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Followers"
+                    android:textColor="#fff"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1232"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/varela_font"
+                    android:textSize="20sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Following"
+                    android:textColor="#fff"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aries Spring"
+            android:textColor="#fff"
+            android:fontFamily="@font/varela_font"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello , i am aires. i love to explore outer space planets. And i was also  a part of Camp B5."
+            android:textColor="#fff"
+            android:fontFamily="@font/spf_pro_font"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Edit Profile"
+        android:textColor="#fff"
+        android:textSize="17dp"
+        android:textAllCaps="false"
+        android:background="@drawable/background_black"
+        />
+
+
+
+
+
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+
+
+        >
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/background_circular"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="16dp"
+                        app:cardBackgroundColor="#121212"
+                        app:cardCornerRadius="70dp">
+
+                        <ImageView
+                            android:id="@+id/Stories"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/add_icon"
+                            android:scaleType="centerCrop" />
+
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/storiesTV"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+
+                    android:fontFamily="@font/varela_font"
+                    android:text="New"
+                    android:textColor="#fff"
+
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+
+                android:id="@+id/recyclerViewProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_toEndOf="@+id/linearLayout"
+                android:nestedScrollingEnabled="false" />
+
+
+        </RelativeLayout>
+    </HorizontalScrollView>
+
+
+
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        />
+
+</LinearLayout>
